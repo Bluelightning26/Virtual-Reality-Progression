@@ -1,0 +1,99 @@
+/* Default */
+html {
+    height: 100%;
+    width: 100%;
+}
+
+/* Title */
+h1 {
+    color: maroon;
+    font-family: "Monaco";
+}
+
+/* Navigation */
+li {
+    display: inline;
+    text-align: center;
+    color: maroon;
+    font-family: "Copperplate";
+    font-size: 12.5px;
+}
+
+a:link,
+a:visited {
+    color: maroon;
+    background-color: #C7B7A3;
+    border-width: 9px;
+    border-style: groove;
+    border-color: maroon;
+    border-radius: 10px;
+    text-align: center;
+    text-decoration: underline overline dotted maroon 5px;
+    display: inline-block;
+}
+
+a:hover {
+    color: black;
+}
+
+/* Author */
+h2 {
+    color: maroon;
+    border-width: 3px;
+    border-color: maroon;
+    text-decoration: underline dotted 10px;
+}
+
+/* Paragraphs */
+p {
+    font-family: "Comic Sans MS";
+    background-color: grey;
+    padding: 1em;
+    border-width: 3px;
+    border-style: dashed;
+    border-color: maroon;
+    border-radius: 25px;
+    padding-top: 1cap;
+    opacity: 0.9;
+    text-indent: 20px;
+    /*Images (In the paragraphs*/
+    img {
+        float: right;
+        opacity: 1.0;
+    }
+}
+/* Footer */
+footer {font-family: "Arial";
+
+}
+
+/*Images(ALL)*/
+img {
+    border: 2px dashed maroon;
+    border-radius: 9px;
+    margin: 0px 0px 15px 15px;
+    max-width: 60%;
+    height: auto;
+    opacity: 1.0;
+}
+/* Center Images if Part of Class */
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/* Container holding the image and the text */
+.container {
+    position: relative;
+}
+
+/* Bottom right text*/
+.text-block {
+    position: absolute;
+    bottom: 20px;
+    right: 20px;
+    color: black;
+    padding-left: 20px;
+    padding-right: 20px;
+}
